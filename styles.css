@@ -1,0 +1,62 @@
+
+.header{
+	display:flex;
+	padding: 16px;
+}
+.first {
+	flex: 1;
+	background-color: white;
+	color: black;
+	font-size: 23px;
+	border-right: 1px solid lightgray;
+	text-align: center;
+}
+.second{
+	flex:7;
+}
+.third{
+	flex:1;
+	color: lightgray;
+	border-left: 1px solid lightgray;
+}
+
+.search {
+	display: flex;
+	border-top: 1px solid lightgray;
+	text-align: center;
+}
+ul{
+	list-style-type: none;
+	
+}
+li{
+	padding: 20px;
+}
+
+
+.one{
+	background-color: whitesmoke;
+	border-right: 1px solid lightgray;
+}
+.extra{
+	color:white;
+	background-color: black;
+	padding: 15px;
+	margin:20px;
+	border-radius: 20px;
+	text-align: bottom;
+}
+
+.mainMoive{
+	display: flex;
+	flex-wrap: wrap;
+	
+	
+}
+
+.movie{
+	font-size: 20px;
+	background-color: blue;
+	
+}
+	

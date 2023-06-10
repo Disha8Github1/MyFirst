@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<link 	rel = "stylesheet" href = "styles.css">
+<link  type="text/javscript" src="Java.js">
+
+</head>
+
+<body>
+
+    <section class = "header">
+        <div class="first">
+            Movies   
+        </div>
+
+        <div class="second">
+            
+        </div>
+
+        <div class="third">
+            Quick Search
+        </div>
+
+    </section>
+        
+
+    <section class = "search">  
+        <div class ="one">
+            <ul>
+                <li>Search results</li>
+                <li>All team</li>
+                <li>Core</li>
+                <li>Developers</li>
+                <li>Designers</li>
+                <li>Mentors</li>
+
+            </ul>
+            <div class="extra">+ ADD</div>
+        </div>
+        
+        <!-- <div class="two">
+            <script> /*type="text/javscript" src="Java.js"*/
+
+                const API_KEY = '02014e040498cf6510307be3ed6de78e';
+                const BASE_URL = 'https://api.themoviedb.org/3';    
+                const API_URL = BASE_URL + '/discover/movie?sort_by=popularity.desc&' + API_KEY;
+                const IMG_URL = 'https://image.tmdb.org/t/p/w500';
+                const searchURL = BASE_URL + '/search/movie?'+ API_KEY;
+
+
+                fetch('searchURL')
+                .then(res => res.json())
+                .then(data =>{
+                    console.log(data);
+                });
+            
+            </script>
+        </div> -->
+
+        <main id="main">
+            <div class="mainMoive">
+                <div class="movie">
+                    <img src=" " alt = "Image">
+
+                    <div class="movie-info">
+                        <h3>Movie Title</h3>
+                        <span>9.8</span>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <script src="Java.js"></script>
+        
+
+    </section>
+
+
+
+</body>
+
+</html>
